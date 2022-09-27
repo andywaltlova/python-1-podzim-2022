@@ -3,6 +3,7 @@
 
 # Napiš program, který spočte průměrnou známku ze všech předmětů.
 # Uprav program, aby vypsal všechny předměty, ve kterých získal student známku 1.
+
 school_report = {
     "Český jazyk": 1,
     "Anglický jazyk": 1,
@@ -16,7 +17,22 @@ school_report = {
     "Chemie": 4,
 }
 
-# TODO
+
+# sum_of_marks = 0
+# count_of_marks = 0
+# for predmet, znamka in school_report.items():
+#     sum_of_marks += znamka
+#     count_of_marks += 1
+
+    # if znamka == 1:
+    #     print(predmet)
+
+# print(sum_of_marks)
+# print(count_of_marks)
+
+# pocet = len(school_report)
+# soucet = sum(school_report.values())
+# print(soucet/pocet)
 
 # 2 Čtenářský deník (to dáš)
 # Gustav je vášnivým čtenářem detektivek z našeho nakladatelství a navíc si zapisuje knihy, které přečetl.
@@ -36,7 +52,16 @@ books = [
     {"title": "Vrah zavolá v deset", "pages": 396, "rating": 6},
 ]
 
-# TODO
+pocet_knih_8 = 0
+pocet_stran = 0
+for book in books:
+    pocet_stran += book['pages']
+    if book['rating'] >= 8:
+        pocet_knih_8 += 1
+
+print(pocet_stran)
+print(pocet_knih_8)
+
 
 # Bonusy
 # 3 Poznávací značky (zapni hlavu)
@@ -45,12 +70,16 @@ books = [
 # Napiš program, který vypíše všechny majitele, jejichž vozidlo je registrováno v Plzeňském kraji,
 # tj. na druhém místě (index 1!) řetězce v klíči je písmeno P.
 
-plates = {"4A2 3000": "František Novák",
+plates = {
+    "4A2 3000": "František Novák",
     "6P5 4747": "Jana Pilná",
     "3B7 3652": "Jaroslav Sečkár",
     "1P5 5269": "Marta Nováková",
     "37E 1252": "Martina Matušková",
-    "2A5 2241": "Jan Král"}
+    "2A5 2241": "Jan Král"
+}
 
-# TODO
+for plate, owner in plates.items():
+    if plate[1] == 'P':
+        print(owner)
 
