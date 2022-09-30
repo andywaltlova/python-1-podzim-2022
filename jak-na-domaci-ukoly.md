@@ -62,6 +62,8 @@ Jakmile máme vytvořený repozitář na GitHubu a jeho kopii ve VS Code, může
 5. Na závěr nahrajeme tuto změnu na GitHub. Klikni na obrázek dvou šipek v cyklu zcela dole a vlevo.
 <img src="./img/source-control-3.png" width="300">
 
+* > Je možné, že se vizuálně může editor VSC v některých verzích lišit (nebo pokud máte nějaké další rozšíření).
+
 ### Vytvoření Issue na GitHubu - závěrečný krok odevzdání
 
 1. Na GitHubu na stránce tvého repozitáře klikni na *Issues* a pak vytvoř nové Issue pomocí tlačítka *New Issue* (tlačítka jsou označeny modrými hvězdičkami).
