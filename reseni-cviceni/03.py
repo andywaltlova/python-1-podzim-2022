@@ -2,6 +2,13 @@
 # Napiš funkci mult, která bude mít dva číselné parametry.
 # Funkce oba parametry vynásobí a vrátí výsledek.
 
+def mult(a: int, b: int):
+    vysledek = a * b
+    return vysledek
+
+# print(mult(1, 3))
+
+
 # 2 Hotel (to dáš)
 # Napiš funkci total_price, která vypočte cenu noci v hotelu.
 # Funkce bude mít dva parametry - persons a breakfast.
@@ -9,6 +16,28 @@
 # Funkce vrátí výslednou cenu. Parametr breakfast je nepovinný a výchozí hodnota je False.
 
 # Funkci vyzkoušej se zadáním dvou i jedné hodnoty, např. total_price(3), total_price(2, True).
+
+
+def total_price(persons, breakfast=False):
+    night_price = 850
+    breakfast_price = 125
+
+    nights_total = night_price * persons
+    breakfast_total = 0
+    if breakfast:
+        breakfast_total += breakfast_price * persons
+    return nights_total + breakfast_total
+
+print(total_price(10, False))
+
+# Uplne genialni kod co vymyslela Paja Vencovska
+def total_price(persons, breakfast=False):
+    breakfast *= 125 * persons
+    persons *= 850
+    return breakfast + persons
+
+print(total_price(persons=10, breakfast=False))
+
 
 # Bonusy
 
