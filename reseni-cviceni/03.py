@@ -38,6 +38,14 @@ def total_price(persons, breakfast=False):
 
 print(total_price(persons=10, breakfast=False))
 
+# Nebo jeste jina varianta
+
+def total_price(persons, breakfast=False):
+    total_price = 850
+    if breakfast:
+        total_price += 125
+    return persons * total_price
+
 
 # Bonusy
 
