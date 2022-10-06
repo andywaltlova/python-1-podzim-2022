@@ -28,7 +28,7 @@ def total_price(persons, breakfast=False):
         breakfast_total += breakfast_price * persons
     return nights_total + breakfast_total
 
-print(total_price(10, False))
+# print(total_price(10, False))
 
 # Uplne genialni kod co vymyslela Paja Vencovska
 def total_price(persons, breakfast=False):
@@ -36,7 +36,7 @@ def total_price(persons, breakfast=False):
     persons *= 850
     return breakfast + persons
 
-print(total_price(persons=10, breakfast=False))
+# print(total_price(persons=10, breakfast=False))
 
 # Nebo jeste jina varianta
 
@@ -55,9 +55,20 @@ def total_price(persons, breakfast=False):
 # Nezapomeň, že pro ženy je k měsíci připočtena hodnota 50.
 # Příklad: Pro hodnotu 9207054439 vrátí 7. Pro hodnotu 9555125899 vrátí 5.
 
+def month_of_birth(number):
+    month = int(str(number)[2:4])
+    if month > 12:
+        month -= 50
+    return month
+
+
+# print(month_of_birth(9555125899))
+
+
 # 4 Ruleta (smrt v přímém přenosu)
 # Napiš funkci, která bude jednoduchou simulací rulety.
-# Budeme uvažovat pouze možnost sázení na řady. Uživatel si může vybrat jednu ze tří řad:
+# Budeme uvažovat pouze možnost sázení na řady.
+# Uživatel si může vybrat jednu ze tří řad:
 
 # první řada (hodnoty 1, 4, 7 atd.),
 # druhá řada (hodnoty 2, 5, 8 atd.),
@@ -73,3 +84,27 @@ def total_price(persons, breakfast=False):
 # Funkce roulette vrací hodnotu výhry.
 # Pokud uživatel vsadil na správnou řadu, vyhrává dvojnásobek sázky,
 # v opačném případě nevyhrává nic jeho sázka propadá.
+
+
+# import random
+from random import randint
+
+
+def roulette(rada, sazka):
+    cislo = randint(0, 36)
+
+    trefil_1 = rada == 1 and cislo % 3 == 1
+    trefil_2 = rada == 2 and cislo % 3 == 2
+    trefil_3 = rada == 2 and cislo % 3 == 0
+
+    # Taky moznost
+    # trefil_1 = rada == 1 and cislo in range(1, 36, 3)
+    # trefil_2 = rada == 2 and cislo in range(2, 36, 3)
+    # trefil_3 = rada == 2 and cislo in range(3, 36, 3)
+
+    if trefil_1 or trefil_2 or trefil_3:
+        return sazka * 2
+
+    return 0
+
+print(roulette(1, 10))
