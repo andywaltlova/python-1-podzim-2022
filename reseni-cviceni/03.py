@@ -95,16 +95,55 @@ def roulette(rada, sazka):
 
     trefil_1 = rada == 1 and cislo % 3 == 1
     trefil_2 = rada == 2 and cislo % 3 == 2
-    trefil_3 = rada == 2 and cislo % 3 == 0
+    trefil_3 = rada == 3 and cislo % 3 == 0
 
     # Taky moznost
     # trefil_1 = rada == 1 and cislo in range(1, 36, 3)
     # trefil_2 = rada == 2 and cislo in range(2, 36, 3)
-    # trefil_3 = rada == 2 and cislo in range(3, 36, 3)
+    # trefil_3 = rada == 3 and cislo in range(3, 36, 3)
 
     if trefil_1 or trefil_2 or trefil_3:
         return sazka * 2
 
     return 0
 
-print(roulette(1, 10))
+def roulette(rada, sazka):
+    # Reseni se slovnikem a modifikovanou podminkou
+    cislo = randint(0, 36)
+    rady = {
+        1: rada == 1 and cislo % 3 == 1,
+        2: rada == 2 and cislo % 3 == 2,
+        3: rada == 3 and cislo % 3 == 0
+    }
+
+    if rady.get(rada, False):
+        return sazka * 2
+    return 0
+
+def roulette(rada, sazka):
+    # Reseni i s vypisy
+
+    cislo = randint(0, 36)
+    if cislo == 0:
+        print('Nula nevyhrava :(')
+        return cislo
+
+    zbytek = cislo % 3
+    rady = {
+        1: rada == 1 and zbytek == 1,
+        2: rada == 2 and zbytek == 2,
+        3: rada == 3 and zbytek == 0
+    }
+
+    # Asi bych tady pouzila inline podminku a vyuzila ze ty zbytky odpovidaji radam krome te treti
+    print(f'Cislo {cislo} patri do {3 if zbytek == 0 else zbytek} rady.')
+
+    if rady.get(rada, False):
+        vyhra = sazka * 2
+        print(f'Vyhravas {vyhra}!')
+        return sazka * 2
+
+    print(f'Nevyhravas protoze sis tipnul {rada} radu.')
+    return 0
+
+roulette(1, 100)
