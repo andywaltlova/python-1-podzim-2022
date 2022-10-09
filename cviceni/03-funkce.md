@@ -1,1 +1,0 @@
-https://kodim.cz/kurzy/uvod-do-progr-2/uvod-do-programovani-2/funkce/excs
