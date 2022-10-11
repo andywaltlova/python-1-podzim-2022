@@ -10,7 +10,7 @@ Na úkolu si vyzkoušejte, že umíte třídu definovat a vyvořit konkrétní o
 ## Obecné požadavky na úkol (vyžaduje více času a vlastní iniciativy)
 
 - Existuji alespoň dvě různé třídy z toho každá má:
-  - alespoň 3 atributy (nemusí být všechny jako argumenty v `__nit__`)
+  - alespoň 3 atributy (nemusí být všechny jako argumenty v `__init__`)
   - alespoň 3 metody + __init__ (nebo může být i `dataclass`)
 - Na konci souboru je ukázka použití tříd a metod
 
