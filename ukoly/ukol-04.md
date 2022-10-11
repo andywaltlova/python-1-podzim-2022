@@ -16,7 +16,7 @@ Na úkolu si vyzkoušejte, že umíte třídu definovat a vyvořit konkrétní o
 
 ## Vymyšlené zadání
 
-Uvažuj že vytváříš kuchařku a potřebuješ uložit několik receptů. Vytvoř dvě třídy `Kucharka` a `Recept`.
+Uvažuj že vytváříš kuchařku a potřebuješ uložit několik receptů. Vytvoř dvě třídy  `Recept` a `Kucharka` (idealne v tomto poradi).
 
 ### 1. Recept
 Bude mít 3 atributy:
