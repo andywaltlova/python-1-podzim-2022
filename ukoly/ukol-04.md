@@ -9,71 +9,83 @@ Na úkolu si vyzkoušejte, že umíte třídu definovat a vyvořit konkrétní o
 
 ## Obecné požadavky na úkol (vyžaduje více času a vlastní iniciativy)
 
-- Alespoň dvě třídy, které od sebe budou dědit atributy a metody (alespoň jeden atribut a 2 metody).
-- Mateřská třída by měla vždy být obecnější než třída, která některé vlastnosti a metody dědí. Podobně jako jsme měli Zaměstnanec a Brigádník (Brigádník je pouze specifická kategorie zaměstnance). Další takové vztahy mohou například být:
-   - Zvíře -> Panda
-   - Nemoc -> Koronavirus
-   - Dopravní prostředek -> Auto.
+- Existuji alespoň dvě různé třídy z toho každá má:
+  - alespoň 3 atributy (nemusí být všechny jako argumenty v `__nit__`)
+  - alespoň 3 metody + __init__ (nebo může být i `dataclass`)
+- Na konci souboru je ukázka použití tříd a metod
 
-## Vymyšlené zadání (WIP)
+## Vymyšlené zadání
 
-Uvažuj že vytváříš software pro útulek se zvířaty. Vytvoř dvě třídy `Animal` a `Dog`.
+Uvažuj že vytváříš kuchařku a potřebuješ uložit několik receptů. Vytvoř dvě třídy `Kucharka` a `Recept`.
 
-### Animal (Zvíře)
-Mateřská třída, bude mít 3 atributy:
-  - `name` - string, retezec (jemno zvirete)
-  - `age` - int, cislo (predstavuje vek zvirete v rocich)
-  - `is_alive` - bool, pravdivostni hodnota (`True` pokud je zvire nazivu, `False` pokud je po smrti), vychozi hodnota je vzdy `True`
+### 1. Recept
+Bude mít 3 atributy:
+  - `nazev` - string, jmeno kucharky
+  - `narocnost` - necham na vas jak ji budete reprezentovat (muze byt cislo, muze byt slovni vyjadreni)
+  - `url_adresa` - string, odkaz na recept
+  - `vyzkouseno` - bool, metoda `__init__` ji vzdy nastavi na `False`
 
-`name` a `age` budou zaroven atributy metodu `__init__`, tedy uzivatel si je muze zvolit pri vytvareni objektu, `is_alive` je vzdy `True`
+`nazev`,`narocnost`, `url_adresa` budou atributy metody `__init__`, tedy uzivatel si je muze zvolit pri vytvareni objektu.
 
-A bude mít také 2 metody:
-  - `say_name(self)`
-    - Vraci jmeno zvirete
-  - `increase_age(self, number)`
-    - Metoda zvysi atribut `age` o `number` ktere dostane jako argument
+A bude mít také 3 metody:
+  - `__str___(self)`
+    - vraci hezky vypis receptu (necham na vas ktere atributy chcete do vypisu dat)
+  - `zmen_narocnost(self, nova_hodnota)`
+    - zmeni narocnost, tedy zmeni atribut `narocnost` na `nova_hodnota`
+  - `vyzkouseno(self)`
+    - zmeni atribut `vyzkouseno` na `True`
 
-### Dog (Pes)
-Tato třída dědí všechny metody a atributy ze třídy `Animal`.
+### 2. Kucharka
+Bude mít 3 atributy:
+  - `nazev` - string, jmeno kucharky
+  - `autor` - string, jmeno autora kucharky
+  - `recepty` - list objektu tridy `Recept`, metoda `__init__` ji nastavuje vzdy na prazdny seznam `[]`
 
-Navíc ale:
-  - k navratove hodnote metody `say_name(self)` pridava zvuk ktery vydava pes (woof, haf ..) a vysledek vypise pomoci `print()` (muze a nemusi take vracet upraveny vypis)
-  - pridava atribute `life_expectancy` a modifikuje metodu `increase_age(self, number)` tak aby zmenila atribut `is_alive` na `False` pokud atribut `age` je vetsi nez atribut `life_expectancy`
+`nazev` a `autor` budou atributy metody `__init__`, tedy uzivatel si je muze zvolit pri vytvareni objektu.
+
+A bude mít také 3 metody:
+  - `__str___(self)`
+    - vraci hezky vypis kucharky (necham na vas ktere atributy chcete do vypisu dat)
+  - `pocet_receptu(self)`
+    - vraci cislo reprezentujici pocet receptu v atributu `recepty`
+  - `pridej_recept(self, recept)`
+    - prida do atributu `recepty` objekt recepty ktery je v argumentu `recept`
+
 
 Priklad pouziti:
 
 ```python
-scooby = Dog('Scooby', 5, 10)
-# stejne jako scooby = Dog('Scooby', age=5, life_expectancy=10)
-scooby.increase_age(2)
-print(scooby.age) # 7
-print(scooby.is_alive) # True
-scooby.say_name() # My name is Scooby, Woof !
-scooby.increase_age(4)
-print(scooby.age) # 11
-print(scooby.is_alive) # False
+# Recepty
+tiramisu = Recept('Tiramisu', 5, 'url-adresa')
+print(tiramisu) # -> 'Tiramisu (narocnost: 5) - jeste nevyzkouseno'
+muffiny = Recept('Muffiny', 3, 'url-adresa')
+muffiny.vyzkouseno()
+muffiny.zmen_narocnost(2)
+print(muffiny) # -> Muffiny (narocnost: 2) - vyzkouseno'
+
+#Kucharka
+moje_kucharka = Kucharka('Dezerty', 'Andy')
+print(moje_kucharka) # -> 'Dezerty od Andy (0 receptu)'
+moje_kucharka.pridej_recept(tiramisu)
+moje_kucharka.pridej_recept(muffiny)
+print(moje_kucharka.pocet_receptu()) # -> 2
 ```
 
 ---
 ### Bonus:
-Vytvoř třetí třídu `Person` (`Osoba`). Staci kdyz bude mit atribu `name`, ale muzete si ji udelat i detailnejsi pokud chcete.
-
-Bude mit metodu `__str__` ktera bude vracet jmeno osoby (tedy obsah atributu `name`)
-
-Přidej třídě `Animal` atribut a metodu:
-  - atribut: `owner`, který bude mít výchozí hodnotu `None`
-  - metoda: `change_owner(self, owner)` - argument teto metody bude objekt tridy `Person`
+Pridej tride `Kucharka` metodu `vyzkousene_recepty(self)`, ktera vrati seznam receptu ktere maji atribut `vyzkouseno` `True`.
 
 Priklad pouziti:
 
 ```python
-scooby = Dog('Scooby', 5, 10)
-# stejne jako scooby = Dog('Scooby', age=5, life_expectancy=10)
-print(scooby.owner) # 'None'
 
-fred = Person('Fred Jones')
-scooby.change_owner(fred)
-print(scooby.owner.name) # 'Fred Jones'
+moje_kucharka = Kucharka('Peceni', 'Andy')
+print(moje_kucharka) # -> 'Peceni od Andy (0 receptu)'
 
+pernik = Recept('Pernik', 2, 'url-adresa')
+moje_kucharka.pridej_recept(pernik)
+print(moje_kucharka.vyzkousene_recepty()) # => []
+pernik.vyzkoueno()
+print(moje_kucharka.vyzkousene_recepty()) # => ['Pernik (narocnost: 2) - vyzkouseno']
 
 ```
