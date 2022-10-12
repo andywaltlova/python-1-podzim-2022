@@ -32,7 +32,7 @@ A bude mít také 3 metody:
     - vraci hezky vypis receptu (necham na vas ktere atributy chcete do vypisu dat)
   - `zmen_narocnost(self, nova_hodnota)`
     - zmeni narocnost, tedy zmeni atribut `narocnost` na `nova_hodnota`
-  - `vyzkouseno(self)`
+  - `zkusit(self)`
     - zmeni atribut `vyzkouseno` na `True`
 
 ### 2. Kucharka
@@ -59,7 +59,7 @@ Priklad pouziti:
 tiramisu = Recept('Tiramisu', 5, 'url-adresa')
 print(tiramisu) # -> 'Tiramisu (narocnost: 5) - jeste nevyzkouseno'
 muffiny = Recept('Muffiny', 3, 'url-adresa')
-muffiny.vyzkouseno()
+muffiny.zkusit()
 muffiny.zmen_narocnost(2)
 print(muffiny) # -> Muffiny (narocnost: 2) - vyzkouseno'
 
@@ -85,7 +85,7 @@ print(moje_kucharka) # -> 'Peceni od Andy (0 receptu)'
 pernik = Recept('Pernik', 2, 'url-adresa')
 moje_kucharka.pridej_recept(pernik)
 print(moje_kucharka.vyzkousene_recepty()) # => []
-pernik.vyzkoueno()
+pernik.zkusit()
 print(moje_kucharka.vyzkousene_recepty()) # => ['Pernik (narocnost: 2) - vyzkouseno']
 
 ```
