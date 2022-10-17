@@ -2,6 +2,13 @@
 
 Deadline: 1.11.2022
 
+Ukol ma dve casti:
+
+1. [Dedicnost](#dedicnost)
+    * [priklad pouziti](#priklad-pouziti)
+2. [List comprehensions](#list-comprehension)
+    * [data](#data)
+---
 ## Dedicnost
 
 Prohledni si nasledujici tridu:
@@ -44,6 +51,8 @@ print(seznam) # 'a, b, c'
 
 Hodnoty atributu `inkubacni_doba` a `sireni` budou v `__init__` metode tridy `Koronavirus` predane `__init__` metode materske tridy (pres `super().__init__(...)`).
 
+![koala inheritance meme](https://pbs.twimg.com/media/EY0QN-KWAAEy1O0?format=jpg&name=small)
+
 ---
 
 ### Priklad pouziti:
@@ -70,6 +79,9 @@ Vsechny nize popsane listy sestav vyhradne pomoci list compehension. Ano jde to 
 2. Vytvor seznam vsech subregionu v regionu `'Asie'`
 3. Vytvor seznam statu reprezentovanych slovniky kde bude pouze `'name'` a `'capital'`, tedy v tomto formatu: `[{'name': 'Afghanistan, 'capital': 'Kabul'}, ...]`
 4. Spocitej celkovou plochu (`'area'`) regionu `'Europe'` (pouzij funkci `sum()` + list comprehension)
+
+
+![list comprehension meme](https://preview.redd.it/c9e650hqd8a91.jpg?width=640&crop=smart&auto=webp&s=a9436d632aab8317c6054e703e03db375f19899d)
 
 ---
 
