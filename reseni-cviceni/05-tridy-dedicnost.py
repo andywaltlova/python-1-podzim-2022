@@ -20,7 +20,7 @@ class Balik:
         self.doruceno = True
 
     def __str__(self):
-        vypis = f'{self.adresa}({self.hmostnos} kg) - {self.doruceno}'
+        vypis = f'{self.adresa}({self.hmotnost} kg) - {self.doruceno}'
         return vypis
 
 # Vytvoř třídu CennyBalik, která dědí od třídy Balik.
