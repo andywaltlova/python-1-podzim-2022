@@ -4,7 +4,36 @@
 # který reprezentuje velikost úvazku oproti plnému.
 # Přidej informaci o úvazku k výpisu informací do funkce __str__.
 
-# TODO
+class Zamestnanec:
+    def __init__(self, jmeno: str, pozice: str):
+        self.jmeno = jmeno
+        self.pozice = pozice
+        self.pocet_dni_dovolene = 25
+
+    def __str__(self):
+        return f'{self.jmeno} pracuje na pozici {self.pozice}'
+
+    def cerpani_dovolene(self, pocet_dni):
+        if pocet_dni <= self.pocet_dni_dovolene:
+            self.pocet_dni_dovolene -= pocet_dni
+            return f'Zbyva dovolene: {self.pocet_dni_dovolene}'
+        else:
+            return f'Nemas dostatek dovolene: {self.pocet_dni_dovolene}'
+
+class Brigadnik(Zamestnanec):
+    def __init__(self, jmeno, pozice, uvazek):
+        super().__init__(jmeno, pozice)
+        self.uvazek = uvazek
+
+    def __str__(self):
+        return f'{super().__str__()} a ma uvazek {self.uvazek}'
+
+
+matej = Zamestnanec('Matej', 'programator')
+print(matej)
+michal = Brigadnik('Michal', 'programator', 0.5)
+print(michal)
+
 
 # 2 Balík (zapni hlavu)
 # Pokračuj ve své práci pro zásilkovou společnost. Společnost nově doručuje i cenné balíky, které mají zadanou určitou hodnotu.
@@ -28,4 +57,17 @@ class Balik:
 # Atribut hodnota nastav pomocí funkce __init__. Ostatní parametry předej funkci __init__ třídy Balik.
 # Vytvoř si alespoň jeden objekt a zkus volání jeho funkcí.
 
-# TODO
+
+class CennyBalik(Balik):
+    def __init__(self, adresa, hmotnost, hodnota):
+        super().__init__(adresa, hmotnost)
+        self.hodnota = hodnota
+
+    def __str__(self):
+        return f'{super().__str__()} [{self.hodnota} Kc]'
+
+
+drahy_balicek = CennyBalik('Brno', 20, 20_000)
+print(drahy_balicek)
+
+
