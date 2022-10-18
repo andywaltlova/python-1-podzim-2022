@@ -2,7 +2,7 @@
 
 Deadline: 1.11.2022
 
-Ukol ma dve casti:
+Ukol ma dve casti - vyberte si alespon jednu - opravime i obe dve kdyz je udelate - to je jasny :)
 
 1. [Dedicnost](#dedicnost)
     * [priklad pouziti](#priklad-pouziti)
@@ -71,7 +71,11 @@ print(corona) # 'Jmeno: Coronavirus (varianty: omikron, delta, alpha)'
 
 ## List Comprehension
 
-Data pouzijeme stejna jako v ukolu 2, muzete si je ope zkopirovat [nize](#data).
+**Bud pouzijte zadani nize, a nebo si vyberte alespon jedno cviceni z [cvicenich na kodim](https://kodim.cz/kurzy/python-data/zaklady-programovani/text-chroustani/chroustani-seznamu)** (pripadne pripravena sablona [zde](/reseni-cviceni/05-list-comprehension.py))
+
+---
+
+Data pouzijeme stejna jako v ukolu 2, muzete si je zkopirovat [nize](#data).
 
 Vsechny nize popsane listy sestav vyhradne pomoci list compehension. Ano jde to i pomoci for cyklu + `append` metody, ale cilem ukolu je procvicit si list comprehension, neni problem pokud si to nejdrive napisete for cyklem a `append` metodou, jen je to stale potreba prepsat do list comprehension.
 

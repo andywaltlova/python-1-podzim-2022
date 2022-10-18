@@ -66,8 +66,6 @@ class CennyBalik(Balik):
     def __str__(self):
         return f'{super().__str__()} [{self.hodnota} Kc]'
 
-
-drahy_balicek = CennyBalik('Brno', 20, 20_000)
 print(drahy_balicek)
 
 
