@@ -15,6 +15,7 @@ Prohledni si nasledujici tridu:
 
 ```py
 class Nemoc:
+    # poradi argumentu v radku nize si klidne preskladejte
     def __init__(self, jmeno, inkubacni_doba, pocet_obeti, sireni):
         self.jmeno = jmeno
         self.inkubacni_doba = inkubacni_doba
@@ -49,7 +50,7 @@ seznam = ['a', 'b', 'c']
 print(seznam) # 'a, b, c'
 ```
 
-Hodnoty atributu `inkubacni_doba` a `sireni` budou v `__init__` metode tridy `Koronavirus` predane `__init__` metode materske tridy (pres `super().__init__(...)`).
+Hodnoty atributu `inkubacni_doba`, `pocet_obeti` a `sireni` budou v `__init__` metode tridy `Koronavirus` predane `__init__` metode materske tridy (pres `super().__init__(...)`).
 
 ![koala inheritance meme](https://pbs.twimg.com/media/EY0QN-KWAAEy1O0?format=jpg&name=small)
 
@@ -60,8 +61,9 @@ Hodnoty atributu `inkubacni_doba` a `sireni` budou v `__init__` metode tridy `Ko
 ```py
 corona = Koronavirus('Coronavirus', 'omikron')
 print(corona) # 'Jmeno: Coronavirus (zadne nalezene varianty)'
+print(corona.pocet_obeti) # nejake cislo ktere se da menit pomoci metody zmen_pocet_obeti() - muze byt nacatku nula nebo cislo ktere si zvolite pro vytvoreni
 print(corona.sireni) # 'vzduchem' -- muzete reprezentovat i cislem
-print(corona.inkubacni_doba) # 12 -- je mi jedno jake cislo, ale pevne dane ve volani __init__ metody materske tridy
+print(corona.inkubacni_doba) # 12 -- je mi jedno jake cislo - pevne dane ve volani super().__init__(...)
 corona.pridej_varianu('omikron')
 corona.pridej_varianu('delta')
 print(corona) # 'Jmeno: Coronavirus (varianty: omikron, delta)'
