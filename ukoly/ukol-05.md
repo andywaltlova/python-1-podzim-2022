@@ -61,7 +61,7 @@ Hodnoty atributu `inkubacni_doba`, `pocet_obeti` a `sireni` budou v `__init__` m
 ```py
 corona = Koronavirus('Coronavirus', 'omikron')
 print(corona) # 'Jmeno: Coronavirus (zadne nalezene varianty)'
-print(corona.pocet_obeti) # nejake cislo ktere se da menit pomoci metody zmen_pocet_obeti() - muze byt nacatku nula nebo cislo ktere si zvolite pro vytvoreni
+print(corona.pocet_obeti) # nejake cislo ktere se da menit pomoci metody zmen_pocet_obeti() - muze byt nacatku nula nebo cislo ktere si zvolite pri vytvoreni objektu
 print(corona.sireni) # 'vzduchem' -- muzete reprezentovat i cislem
 print(corona.inkubacni_doba) # 12 -- je mi jedno jake cislo - pevne dane ve volani super().__init__(...)
 corona.pridej_varianu('omikron')
