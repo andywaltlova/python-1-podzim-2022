@@ -80,9 +80,13 @@ Data pouzijeme stejna jako v ukolu 2, muzete si je zkopirovat [nize](#data).
 Vsechny nize popsane listy sestav vyhradne pomoci list compehension. Ano jde to i pomoci for cyklu + `append` metody, ale cilem ukolu je procvicit si list comprehension, neni problem pokud si to nejdrive napisete for cyklem a `append` metodou, jen je to stale potreba prepsat do list comprehension.
 
 1. Vytvor seznam vsech statu
-2. Vytvor seznam vsech subregionu v regionu `'Asie'`
+2. Vytvor seznam vsech statu v regionu `'Asie'`
+  * Poznamka: pokud byste chteli seznam vsech subregionu bez duplicit, muzete cely list comprehension obalit funkci `set()`, coz predela list na mnozinu a mnoziny maji jen unikatni prvky, pripadne misto list comprehension pouzit set comprehension:
+    * list comprehension: `[stat['subregion'] for stat in staty if stat['region'] == 'Asia']` -> vysledek je list
+    * set comprehension: `{stat['subregion'] for stat in staty if stat['region'] == 'Asia'}` -> vysledek je mnozina
 3. Vytvor seznam statu reprezentovanych slovniky kde bude pouze `'name'` a `'capital'`, tedy v tomto formatu: `[{'name': 'Afghanistan, 'capital': 'Kabul'}, ...]`
 4. Spocitej celkovou plochu (`'area'`) regionu `'Europe'` (pouzij funkci `sum()` + list comprehension)
+  * pozor klic `'area'` nemusi byt ve vsech slovnicich, vyuzijte metodu slovniku `.get()` a pokud tam klic neni, pouzijte `0`
 
 
 ![list comprehension meme](https://preview.redd.it/c9e650hqd8a91.jpg?width=640&crop=smart&auto=webp&s=a9436d632aab8317c6054e703e03db375f19899d)
