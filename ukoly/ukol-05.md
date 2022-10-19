@@ -24,7 +24,7 @@ class Nemoc:
     def __str__(self):
         return f'Jmeno: {self.jmeno}'
 
-    def zmen_pocet_obeti(pocet_obeti):
+    def zmen_pocet_obeti(self, pocet_obeti):
         self.pocet_obeti = pocet_obeti
 ```
 
