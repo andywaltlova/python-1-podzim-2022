@@ -89,3 +89,5 @@ pernik.zkusit()
 print(moje_kucharka.vyzkousene_recepty()) # => ['Pernik (narocnost: 2) - vyzkouseno']
 
 ```
+
+Priklady vypisu jsou ilustracni, muzete si je udelat jak chcete, pokud byste meli problem s tim ze se vam u printu celeho listu nevypisuji ve forme `__str__` metody, muzete pridat metou `__repr__` (bude uplne totozna jako `__str__` jen zmenite nazev), pripadne muzete zkusit list comprehension ktere vam vrati list retezcu (pro kazdy recept zavolate uvnitr list comprehension `__str__` metodu).
