@@ -86,7 +86,9 @@ TODO
 TODO
 
 # 8 Ave, Caesar! (zapni hlavu)
-# Římské číslice se dodnes používají například pro označení století, pořadí panovníků, papežů atd. Zkus sestavit regulární výraz, který zachytí římské číslice v následujících řetězcích. Nemusíš vytvářet obecný regulární výraz pro římské číslice, ale pouze výraz, který bude fungovat na dané řetězce.
+# Římské číslice se dodnes používají například pro označení století, pořadí panovníků, papežů atd.
+# Zkus sestavit regulární výraz, který zachytí římské číslice v následujících řetězcích.
+# Nemusíš vytvářet obecný regulární výraz pro římské číslice, ale pouze výraz, který bude fungovat na dané řetězce.
 
 """
 IX. století
@@ -99,3 +101,5 @@ III. patro
 II. stupeň povodňové aktivity
 Konstantin XI. Dragases
 """
+
+TODO
