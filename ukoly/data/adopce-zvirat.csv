@@ -1,0 +1,514 @@
+id;nazev_cz;nazev_en;trida_cz;cena;k_prohlidce
+7;"Šváb syčivý";"Madagascar giant cockroach ";"Bezobratlí";1000;1
+8;"Pakobylka okřídlená";"Pink-winged stick insect";"Bezobratlí";1000;1
+16;"Tayra";"Tayra";"Savci";5000;1
+35;"Kajmanka supí";"Alligator snapping turtle";"Plazi";2000;1
+37;"Želva žlutočelá";"Indochinese box turtle";"Plazi";1000;1
+38;"Želva stepní (= čtyřprstá)";"Russian tortoise";"Plazi";1500;1
+39;"Želva sloní";"Galapagos tortoise";"Plazi";5000;1
+40;"Želva obrovská";"Aldabra giant tortoise";"Plazi";5000;1
+41;"Želva skalní";"Pancake tortoise";"Plazi";1000;1
+50;"Leguán kubánský";"Cuban ground iguana";"Plazi";3000;1
+56;"Scink šalomounský";"Solomon Islands skink";"Plazi";1000;1
+59;"Dracéna guyanská";"Caiman lizard";"Plazi";3000;1
+61;"Varan smaragdový";"Green tree monitor";"Plazi";1500;1
+67;"Hroznýšovec duhový";"Brazilian rainbow boa";"Plazi";1500;1
+68;"Hroznýšovec kubánský";"Cuban boa";"Plazi";1500;1
+70;"Hroznýš psohlavý";"Madagascar tree boa";"Plazi";2000;1
+71;"Krajta tygrovitá";"Indian rock python";"Plazi";2000;1
+73;"Krajta královská";"Ball python";"Plazi";2000;0
+75;"Krajta zelená";"Green tree python";"Plazi";2000;1
+77;"Korálovka Ruthvenova";"Ruthven's king snake";"Plazi";1500;1
+79;"Užovka nosatá";"Vietnamese longnose snake";"Plazi";1500;0
+83;"Nandu Darwinův";"Darwin's rhea";"Ptáci";5000;1
+84;"Kasuár přílbový";"Southern cassowary";"Ptáci";8000;1
+85;"Emu hnědý";"Emu";"Ptáci";5000;1
+86;"Tučňák Humboldtův";"Humboldt's penguin";"Ptáci";5000;1
+87;"Pelikán bílý";"Eastern white pelican";"Ptáci";8000;1
+88;"Pelikán kadeřavý";"Dalmatian pelican";"Ptáci";8000;1
+90;"Kvakoš noční";"Night heron";"Ptáci";2000;1
+91;"Volavčík člunozobý";"Boat-billed heron";"Ptáci";2000;1
+93;"Čáp černý";"Black stork";"Ptáci";2500;1
+94;"Čáp simbil";"Abdim's stork";"Ptáci";2500;1
+95;"Marabu africký";"Marabou stork";"Ptáci";4000;0
+97;"Zejozob africký";"African openbill";"Ptáci";2500;1
+98;"Ibis rudý";"Scarlet ibis";"Ptáci";3000;1
+99;"Ibis bílý";"White ibis";"Ptáci";3000;1
+100;"Ibis skalní";"Northern bald ibis";"Ptáci";3000;1
+102;"Kolpík bílý";"Eurasian spoonbill";"Ptáci";3000;1
+103;"Plameňák chilský";"Chilean flamingo";"Ptáci";3000;1
+104;"Plameňák růžový";"Greater flamingo";"Ptáci";3000;1
+105;"Plameňák kubánský";"Carribean flamingo";"Ptáci";3000;1
+109;"Husa malá";"Lesser white-fronted goose";"Ptáci";1000;1
+110;"Berneška rudokrká";"Red-breasted goose";"Ptáci";1000;1
+111;"Berneška kanadská";"Canada goose";"Ptáci";1000;1
+116;"Kachnička mandarínská";"Mandarin duck";"Ptáci";1000;1
+117;"Kachna bahamská";"White-cheeked pintail";"Ptáci";1000;1
+118;"Čírka obecná";"Teal";"Ptáci";1000;1
+120;"Čírka modrá";"Garganey";"Ptáci";1000;1
+123;"Polák malý";"Ferruginous duck";"Ptáci";1000;1
+136;"Pižmovka hřebenatá";"Comb duck";"Ptáci";1000;1
+140;"Sup hnědý";"Eurasian black vulture";"Ptáci";3000;1
+142;"Orlosup bradatý";"Bearded vulture";"Ptáci";3000;1
+144;"Orel bělohlavý";"Bald eagle";"Ptáci";3000;1
+146;"Sup mrchožravý";"Egyptian  vulture";"Ptáci";3000;1
+147;"Orel kejklíř";"Bateleur";"Ptáci";3000;0
+148;"Hadilov písař";"Secretary bird";"Ptáci";3000;0
+152;"Guan modrohrdlý";"Blue-throated piping-guan";"Ptáci";2000;0
+160;"Bažant Edwardsův";"Edward's pheasant";"Ptáci";1000;1
+163;"Páv korunkatý";"Indian peacock";"Ptáci";1000;1
+165;"Bažant palawanský";"Palawan peacock-pheasant";"Ptáci";1000;1
+166;"Bažant malajský";"Malaysian peacock-pheasant";"Ptáci";1000;1
+172;"Jeřáb rajský";"Blue crane";"Ptáci";2500;1
+173;"Jeřáb panenský";"Demoiselle crane";"Ptáci";2500;1
+175;"Jeřáb bělošíjí";"White-naped crane";"Ptáci";2500;1
+178;"Seriema rudozobá";"Red-legged seriema";"Ptáci";2500;1
+184;"Holub krvavý";"Bleeding-heart pigeon";"Ptáci";1000;1
+186;"Holub chocholatý";"Crested pigeon";"Ptáci";1000;1
+188;"Holub bronzový";"Green imperial pigeon";"Ptáci";1000;1
+189;"Holub dvoubarvý";"Pied imperial pigeon";"Ptáci";1000;1
+190;"Holub nikobarský";"Nicobar pigeon";"Ptáci";1000;1
+191;"Holub bronzovokřídlý";"Common bronzewing";"Ptáci";1000;1
+195;"Lori černý";"Black lory";"Ptáci";1500;1
+197;"Lori olivový";"Brown lory";"Ptáci";1500;1
+200;"Lori horský";"Rainbow lorikeet";"Ptáci";1500;1
+202;"Lori papuánský";"Papuan lorikeet";"Ptáci";1500;0
+205;"Loríček rudobradý";"Edwards's fig-parrot";"Ptáci";1500;1
+212;"Papoušek mniší";"Monk parakeet";"Ptáci";1000;0
+213;"Turako bělobřichý";"White-bellied go-away-bird";"Ptáci";1000;1
+216;"Sova pálená";"Barn owl";"Ptáci";3000;1
+217;"Sýček obecný";"Little owl";"Ptáci";3000;1
+225;"Puštík bradatý";"Great grey owl";"Ptáci";3000;1
+226;"Puštík bělavý";"Ural owl";"Ptáci";3000;1
+227;"Sýc rousný";"Boreal owl";"Ptáci";3000;1
+230;"Lelkoun soví";"Tawny frogmouth";"Ptáci";1000;1
+233;"Dudek chocholatý";"Hoopoe";"Ptáci";1500;0
+234;"Dvojzoborožec indický";"Great Indian hornbill";"Ptáci";3000;1
+235;"Zoborožec kaferský";"African ground hornbill";"Ptáci";3000;0
+241;"Sojkovec chocholatý";"White-crested laughingthrush";"Ptáci";1000;1
+242;"Sojkovec černohrdlý";"Black-throated laughingthrush";"Ptáci";1000;1
+243;"Sojkovec nádherný";"Red-winged laughingthrush";"Ptáci";1000;1
+245;"Timálie sečuánská";"Omeishan liocichla";"Ptáci";1000;1
+252;"Majna Rothschildova";"Bali starling";"Ptáci";1000;1
+254;"Loskuták posvátný";"Hill mynah";"Ptáci";2000;1
+261;"Krkavec velký";"Raven";"Ptáci";2000;1
+269;"Ježura australská";"Short-beaked echidna";"Savci";5000;1
+271;"Klokan rudý";"Red kangaroo";"Savci";7000;1
+272;"Bodlín Telfairův";"Lesser hedgehog tenrec";"Savci";2000;1
+277;"Lemur kata";"Ring-tailed lemur";"Savci";5000;1
+281;"Maki trpasličí";"Gray mouse lemur";"Savci";2000;1
+285;"Komba ušatá";"Northern lesser bushbaby";"Savci";2000;1
+288;"Talapoin severní";"Gabon talapoin";"Savci";5000;1
+293;"Chápan středoamerický";"Geoffroy's spider monkey";"Savci";5000;1
+297;"Orangutan sumaterský";"Sumatran orang-utan";"Savci";30000;1
+298;"Gorila nížinná";"Western lowland gorilla";"Savci";30000;1
+304;"Vydra severoamerická";"Canadian otter";"Savci";6000;1
+305;"Panda červená";"Lesser panda";"Savci";7000;1
+310;"Medvěd lední";"Polar bear";"Savci";30000;1
+311;"Hyena čabraková";"Brown hyena";"Savci";6000;1
+317;"Fenek";"Fennec fox";"Savci";5000;1
+319;"Vlk hřivnatý";"Maned wolf";"Savci";6000;1
+320;"Pes pralesní";"Bush dog";"Savci";5000;1
+329;"Jaguarundi";"Jaguarundi";"Savci";5000;1
+330;"Levhart obláčkový";"Clouded leopard";"Savci";5000;1
+331;"Levhart mandžuský";"Amur leopard";"Savci";20000;1
+334;"Tygr ussurijský";"Siberian tiger";"Savci";50000;1
+335;"Tygr sumaterský";"Sumatran tiger";"Savci";50000;1
+336;"Lev indický";"Asiatic lion";"Savci";30000;1
+337;"Gepard";"Cheetah";"Savci";20000;1
+338;"Lachtan jihoafrický";"Cape fur seal";"Savci";10000;1
+345;"Křeček velký";"Giant jumping rat";"Savci";1000;1
+354;"Pískomil křečkovitý (kyjochvost)";"Fat-tailed gerbil";"Savci";1000;1
+359;"Krysa akáciová";"Acacia rat";"Savci";1000;1
+364;"Dikobraz srstnatonosý";"Indian crested porcupine";"Savci";2000;1
+366;"Morče domácí";"Guinea pig";"Savci";1000;0
+369;"Hutia-konga";"Cuban hutia";"Savci";1000;1
+371;"Hrabáč";"Aardvark";"Savci";7000;1
+373;"Kůň Převalského";"Przewalski's horse";"Savci";8000;1
+376;"Kiang východní";"Eastern kiang";"Savci";5000;1
+377;"Zebra Grévyho";"Grevy's zebra";"Savci";6000;1
+381;"Slon indický";"Asian elephant";"Savci";50000;1
+385;"Hroch obojživelný";"Hippopotamus";"Savci";50000;1
+387;"Velbloud dvouhrbý";"Bactrian camel";"Savci";10000;1
+388;"Lama guanako";"Guanaco";"Savci";5000;1
+389;"Lama alpaka";"Alpaca";"Savci";5000;1
+392;"Los evropský";"Elk (moose in US)";"Savci";7000;1
+394;"Jelen lyrorohý";"Brow-antlered deer";"Savci";5000;1
+396;"Žirafa severní núbijská (= Rothschildova)";"Rothschild's giraffe  ";"Savci";50000;1
+397;"Sitatunga západoafrická";"West African sitatunga";"Savci";5000;1
+399;"Bongo horský";"Eastern bongo";"Savci";7000;1
+402;"Adax";"Addax";"Savci";5000;1
+403;"Přímorožec šavlorohý";"Scimitar-horned oryx";"Savci";5000;1
+405;"Kozorožec kavkazský";"Caucasian ibex";"Savci";3000;1
+408;"Paovce hřivnatá";"Barbary sheep";"Savci";3000;1
+409;"Tahr himálajský";"Himalayan tahr";"Savci";3000;1
+411;"Anoa nížinný";"Lowland anoa";"Savci";7000;1
+412;"Bizon";"American bison";"Savci";10000;1
+413;"Zubr";"European bison";"Savci";10000;1
+431;"Husovec stračí";"Magpie goose";"Ptáci";1000;1
+437;"Takin indický";"Takin";"Savci";5000;1
+438;"Ocelot stromový";"Tiger cat";"Savci";5000;1
+441;"Makak magot";"Barbary macaque";"Savci";5000;1
+447;"Korunáč šedomodrý";"Common crowned pigeon";"Ptáci";1500;0
+455;"Sob karelský";"Finnish forest reindeer";"Savci";7000;1
+461;"Pižmovka bělokřídlá";"White-winged wood duck";"Ptáci";1000;1
+467;"Ústřičník velký";"Eurasian oystercatcher";"Ptáci";1500;1
+475;"Ledňák modrokřídlý";"Blue-winged kookaburra";"Ptáci";3000;1
+476;"Lorikul modrobradý";"Vernal hanging-parrot";"Ptáci";1500;1
+478;"Želva annámská";"Vietnamese pond turtle";"Plazi";1000;1
+479;"Želva amboinská";"Malayan box turtle";"Plazi";1000;1
+481;"Myš páskovaná";"Spotted grass mouse";"Savci";1000;1
+483;"Zákeřnice mombo";"Assassin bug";"Bezobratlí";1000;1
+485;"Kachnička šedoboká";"Ringed teal";"Ptáci";1000;1
+491;"Frankolín žlutokrký";"Yellow-necked francolin";"Ptáci";1000;1
+492;"Bodlinatka turecká";"Turkish spiny mouse";"Savci";1000;0
+493;"Orel východní";"Steller's sea-eagle";"Ptáci";3000;1
+494;"Lori černohlavý";"Purple-naped lory";"Ptáci";1500;1
+498;"Kolpík růžový";"Roseate spoonbill";"Ptáci";3000;1
+499;"Pásovec kulovitý";"Southern three-banded armadillo";"Savci";4000;1
+504;"Psoun prériový";"Black-tailed prairie dog";"Savci";1000;1
+505;"Vlk eurasijský";"Eurasian wolf";"Savci";6000;1
+506;"Surikata";"Meerkat";"Savci";5000;1
+508;"Pštros dvouprstý";"Ostrich";"Ptáci";5000;0
+511;"Myšák hnědokřídlý";"Speckled mousebird";"Ptáci";1000;1
+520;"Ještěrkovec velký";"Round-nosed plated lizard";"Plazi";1000;1
+522;"Krajta Albertisova";"Northern white-lipped python";"Plazi";2000;1
+533;"Drozd oranžovohlavý";"Orange-headed thrush";"Ptáci";1000;1
+538;"Kachnice bělohlavá";"White-headed duck";"Ptáci";1000;1
+545;"Holub růžový";"Pink pigeon";"Ptáci";1000;1
+557;"Holub modroocasý";"Blue-tailed imperial pigeon";"Ptáci";1000;1
+563;"Mandelík hajní";"Common roller";"Ptáci";1500;0
+568;"Vlhovec chocholatý";"Crested oropendola";"Ptáci";1500;0
+570;"Jeřáb mandžuský";"Red-crowned crane";"Ptáci";2500;1
+571;"Puštík brýlatý";"Spectacled owl";"Ptáci";3000;1
+575;"Luňák červený";"Red kite";"Ptáci";3000;1
+576;"Králík domácí";"Domestic rabbit";"Savci";1000;0
+577;"Pískomil veverkoocasý";"Bushy-tailed jird";"Savci";1000;1
+581;"Tana severní";"Northern tree-shrew";"Savci";2000;1
+583;"Nahur modrý";"Bharal";"Savci";3000;1
+585;"Buvolec běločelý";"Blesbock";"Savci";5000;0
+586;"Přímorožec beisa";"Beisa oryx";"Savci";5000;0
+587;"Antilopa vraná";"Sable antelope";"Savci";5000;1
+588;"Medojed";"Honey badger";"Savci";5000;1
+590;"Klokánek králíkovitý";"Brush-tailed rat-kangaroo";"Savci";2000;1
+592;"Kuskus pozemní";"Ground cuscus";"Savci";4000;1
+602;"Irena tyrkysová";"Asian fairy bluebird";"Ptáci";1000;1
+621;"Achatina žravá";"Giant African snail";"Bezobratlí";1000;1
+623;"Sklípkan";"Baboon spider";"Bezobratlí";1000;1
+628;"Mangusta liščí";"Yellow mongoose";"Savci";5000;1
+633;"Vakoveverka létavá";"Sugar glider";"Savci";1000;1
+635;"Veverka kapská";"Cape ground squirrel";"Savci";1000;1
+641;"Tapír jihoamerický";"Lowland tapir";"Savci";10000;1
+642;"Ketupa malajská";"Buffy fish-owl";"Ptáci";3000;1
+643;"Klokan parma";"Parma wallaby";"Savci";3000;1
+648;"Dvojzoborožec nosorožčí";"Rhinoceros hornbill";"Ptáci";3000;1
+649;"Klokan Bennettův";"Bennett's wallaby";"Savci";3000;1
+651;"Antilopa losí";"Eland antelope";"Savci";5000;1
+652;"Voduška červená";"Southern lechwe";"Savci";5000;0
+654;"Bazilišek zelený";"Plumed basilisk";"Plazi";1500;1
+659;"Sojkovec rezavočelý";"Rufous-fronted laughingthrush";"Ptáci";1000;1
+666;"Dytík úhorní";"Stone curlew";"Ptáci";1500;1
+670;"Orlície bornejská";"Malaysian giant turtle";"Plazi";3000;1
+671;"Leguánovec obojkový";"Common collared lizard";"Plazi";1000;1
+673;"Želva černavá";"Giant Asian pond turtle";"Plazi";2000;1
+684;"Dikobraz jihoafrický";"Cape porcupine";"Savci";2000;1
+686;"Mangusta trpasličí";"Common dwarf mongoose";"Savci";2000;1
+690;"Noháč africký";"Springhare";"Savci";2000;1
+691;"Pes ušatý";"Bat-eared fox";"Savci";5000;1
+695;"Plch savanový";"Lesser savanna dormouse";"Savci";1000;1
+705;"Hroznýšek pestrý";"Kenya sand boa";"Plazi";2000;1
+713;"Sleposcink Percivalův";"Percival's lance skink";"Plazi";1000;1
+716;"Mabuja perleťová";"Rainbow skink";"Plazi";1000;1
+717;"Kruhochvost nížinný";"Tropical girdled lizard";"Plazi";1000;1
+719;"Scink ohnivý";"Red-flanked skink";"Plazi";1000;1
+721;"Bičovec pestrý";"Whip spider";"Bezobratlí";1000;1
+724;"Vejcožrout rezavý";"Rufous egg-eater";"Plazi";2000;1
+726;"Mnohonožka";"Millipede";"Bezobratlí";1000;1
+728;"Urzon kanadský";"North American porcupine";"Savci";2000;1
+733;"Bulbul rudouchý";"Red-whiskered bulbul";"Ptáci";1000;1
+737;"Kachna patagonská";"Crested duck";"Ptáci";1000;1
+738;"Zebra Böhmova";"Plains zebra";"Savci";6000;1
+741;"Kočka rybářská";"Fishing cat";"Savci";5000;1
+745;"Nesyt africký";"Yellow-billed stork";"Ptáci";2500;0
+746;"Kotul veverovitý";"Common squirrel monkey";"Savci";5000;1
+748;"Makak vepří";"Pig-tail macaque";"Savci";5000;1
+749;"Outloň váhavý";"Sunda slow loris";"Savci";2000;1
+758;"Voduška abok";"Nile lechwe";"Savci";5000;0
+760;"Čukvala zavalitá";"Common chuckwalla";"Plazi";1000;1
+763;"Želva pardálí";"Leopard tortoise";"Plazi";2000;1
+767;"Stříkoun lapavý";"Banded archerfish";"Ryby";1000;1
+768;"Lezec";"Mudskipper";"Ryby";2000;1
+770;"Bičovka stromová";"Oriental whip snake";"Plazi";2000;1
+771;"Želva zubatá";"Asian leaf turtle";"Plazi";1000;1
+772;"Želva tlustohrdlá";"Malaysian black mud turtle";"Plazi";1000;1
+773;"Dlouhokrčka Siebenrockova";"Australian snake-necked turtle";"Plazi";1500;1
+775;"Batagur tuntong";"Southern river terrapin";"Plazi";3000;1
+776;"Varan komodský";"Komodo dragon";"Plazi";30000;1
+781;"Gekončík východoafrický";"Somali-Masai clawed gecko";"Plazi";1000;1
+784;"Zmije gabunská nosorožčí";"West African Gaboon viper";"Plazi";2000;1
+786;"Anakonda velká";"Green anaconda";"Plazi";3000;1
+791;"Čichavec líbající";"Kissing gourami";"Ryby";1000;0
+800;"Husa domácí";" ";"Ptáci";1500;1
+808;"Prase domácí";"Domestic pig";"Savci";2500;1
+811;"Binturong";"Binturong";"Savci";7000;1
+812;"Bojga ularburong";"Mangrove snake";"Plazi";2000;1
+814;"Leguánek ostnitý";"Desert spiny lizard";"Plazi";1000;1
+816;"Perlička supí";"Vulturine Guinea fowl";"Ptáci";1000;1
+818;"Rýžovník šedý";"Java sparrow";"Ptáci";1000;1
+820;"Veverka bušová";"Smith's bush squirrel";"Savci";1000;1
+827;"Gueréza pláštíková";"Eastern black-and-white colobus monkey";"Savci";5000;1
+830;"Želva kubánská";"North Antillean slider";"Plazi";1000;1
+833;"Ještěrka obecná";"Sand lizard";"Plazi";1000;1
+839;"Karetka novoguinejská";"Pig-nose river turtle";"Plazi";2000;1
+845;"Trnucha Castexova";"Vermiculate river stingray";"Ryby";2000;1
+854;"Hýl obecný";"Eurasian bullfinch";"Ptáci";1000;1
+860;"Čírka úzkozobá";"Marbled teal";"Ptáci";1000;1
+861;"Morčák bílý";"Smew";"Ptáci";1000;1
+867;"Hrdlička čínská";"Spotted dove";"Ptáci";1000;1
+868;"Sekavka nádherná (= mřenka nádherná)";"Clown loach";"Ryby";1000;0
+870;"Satyr Temminckův";"Temminck's tragopan";"Ptáci";1000;1
+871;"Kaložrout pruhovaný";"Banded scat";"Ryby";1000;1
+874;"Gekon Turnerův";"Turner's gecko";"Plazi";1000;1
+878;"Kaloň egyptský";"Egyptian fruit bat";"Savci";2000;1
+895;"Člunozobec africký";"Shoebill";"Ptáci";6000;1
+897;"Tygr malajský";"Malayan tiger";"Savci";50000;1
+902;"Morčák prostřední";"Red-breasted merganser";"Ptáci";1000;1
+907;"Korela chocholatá";"Cockatiel";"Ptáci";1000;1
+909;"Hýl mexický";"House finch";"Ptáci";1000;1
+910;"Papoušek vlnkovaný (= andulka vlnkovaná)";"Budgerigar";"Ptáci";1000;0
+911;"Papoušek zpěvavý";"Red-rumped parrot";"Ptáci";1000;1
+913;"Čichavec perleťový";"Pearl gourami";"Ryby";1000;0
+915;"Šafránka velká";"Saffron finch";"Ptáci";1000;1
+917;"Holub skalní";"Rock pigeon";"Ptáci";1000;1
+919;"Špaček rudokřídlý";"Red-winged starling";"Ptáci";1000;1
+927;"Krátkokrčka červenobřichá";"Australian red-bellied short-necked turtle";"Plazi";1500;1
+938;"Maloočka lovecká";"Huntsman spider";"Bezobratlí";1000;1
+939;"Amuřice Hoevenova";"Red-finned cigar shark";"Ryby";1000;0
+940;"Čichavec drobnošupinný";"Moonlight gourami";"Ryby";1000;0
+948;"Kaložrout skvrnitý";"Argusfish";"Ryby";1000;1
+949;"Labeo černé";"Black shark";"Ryby";1000;0
+950;"Labeo červenoocasé";"Red-tailed labeo";"Ryby";1000;0
+952;"Labeo krásnoploutvé";"Thai flying fox";"Ryby";1000;0
+953;"Okatec stříbřitý";"Silver mono";"Ryby";1000;1
+960;"Parmička pruhoocasá";"Spanner barb";"Ryby";1000;0
+964;"Parmička Schwanenfeldova";"Tinfoil barb";"Ryby";1000;0
+967;"Parmička žraločí";"Bala shark";"Ryby";1000;0
+978;"Trnorep zdobený";"Ornate spiny-tailed lizard";"Plazi";1000;1
+980;"Želva egyptská";"Egyptian tortoise";"Plazi";1000;1
+982;"Užovka hladká";"Smooth snake";"Plazi";1500;1
+985;"Krajta nachová";"Blood python";"Plazi";2000;1
+987;"Želva plochohřbetá";"Malayan flat-shelled turtle";"Plazi";2000;1
+988;"Chameleon obrovský";"Oustalet's chameleon";"Plazi";3000;1
+994;"Holub doupňák";"Stock pigeon";"Ptáci";1000;1
+996;"Hrdlička divoká";"European turtle-dove";"Ptáci";1000;0
+998;"Rozela pestrá";"Eastern rosella";"Ptáci";1000;1
+1010;"Zvonek zelený";" ";"Ptáci";1000;1
+1017;"Sojkovec jihočínský";"Red-tailed laughingthrush";"Ptáci";1000;1
+1018;"Sojkovec šedohnědý";"Sunda laughingthrush";"Ptáci";1000;1
+1019;"Lžičák pestrý";"Eurasian shoveler";"Ptáci";1000;1
+1021;"Čejka žlutonohá";"African wattled lapwing";"Ptáci";1500;0
+1024;"Ibis hagedaš";"Hadada ibis";"Ptáci";3000;1
+1025;"Ibis hnědý";"Glossy ibis";"Ptáci";3000;1
+1027;"Krysa velká";"African giant pouched rat";"Savci";1000;1
+1028;"Komba Garnettova";"Garnett's greater galago";"Savci";2000;1
+1031;"Karakal";"Caracal";"Savci";5000;1
+1032;"Ovíječ filipínský";"Philippine palm civet";"Savci";5000;1
+1047;"Pižmovka domácí";"Domestic Muscovy duck";"Ptáci";1500;1
+1048;"Kur domácí";"Chicken";"Ptáci";1500;1
+1056;"Toko žlutozobý";"Eastern yellow-billed hornbill";"Ptáci";2000;1
+1057;"Kaloň rodriguezský";"Rodrigues fruit bat";"Savci";2000;1
+1062;"Zlatohlávek konžský";"Sun beetle";"Bezobratlí";1000;1
+1064;"Timálie zlatá";"Red-billed leiothrix";"Ptáci";1000;1
+1067;"Šváb egyptský";"Egyptian cockroach";"Bezobratlí";1000;1
+1069;"Žluna větší";"Greater yellownape";"Ptáci";1500;1
+1071;"Varan antracitový";"Black tree monitor";"Plazi";1500;1
+1072;"Varan molucký";"Moluccan yellow monitor";"Plazi";1500;1
+1077;"Muntžak malý";"Chinese muntjac";"Savci";3000;1
+1078;"Holoubek skořicový";"Ruddy ground-dove";"Ptáci";1000;1
+1080;"Slípka modrá";"Purple swamphen";"Ptáci";1500;1
+1082;"Drozd černoprsý";"Black-breasted thrush";"Ptáci";1000;1
+1086;"Kos černý";"Common blackbird";"Ptáci";1000;1
+1096;"Želva texaská (= Berlandierova)";"Texas tortoise";"Plazi";1000;1
+1101;"Gaviál indický";"Indian gharial";"Plazi";30000;1
+1102;"Holub příčkoprsý";"Barred cuckoo-dove";"Ptáci";1000;1
+1105;"Leguánek modravý";"Baja blue rock lizard";"Plazi";1000;1
+1111;"Sojkovec lesní";"Spotted laughingthrush";"Ptáci";1000;1
+1112;"Želva korunkatá";"Crowned river turtle";"Plazi";2000;1
+1115;"Želva bahenní";"European pond turtle";"Plazi";1000;1
+1117;"Želva Smithova";"Brown roof turtle";"Plazi";1000;1
+1121;"Osinák africký";"African brush-tailed porcupine";"Savci";2000;1
+1127;"Bukáček malý";"Little bittern";"Ptáci";2000;1
+1130;"Ježek západní";"Western hedgehog";"Savci";2000;0
+1133;"Velemyš (krysa) obláčková";"Northern Luzon giant cloud rat";"Savci";4000;1
+1140;"Majna žlutolící";"Yellow-faced mynah";"Ptáci";2000;1
+1142;"Gundi";"Common gundi";"Savci";2000;1
+1144;"Ovce tlustorohá";"Bighorn sheep";"Savci";3000;1
+1148;"Zebu zakrslý";"Dwarf zebu";"Savci";5000;1
+1150;"Myš pruhovaná";"Mesic mouse";"Savci";1000;0
+1152;"Lori žlutoskvrnný";"Scaly-breasted lorikeet";"Ptáci";1500;1
+1153;"Tapír čabrakový";"Malayan tapir";"Savci";10000;1
+1154;"Sojkovec bělohrdlý";"White-throated laughingthrush";"Ptáci";1000;1
+1155;"Šváb harlekýn";"Harlequin cockroach";"Bezobratlí";1000;1
+1156;"Sojkovec vlnkohřbetý";"Barred laughingthrush";"Ptáci";1000;0
+1158;"Teju červenavý";"Red tegu";"Plazi";1500;1
+1160;"Želva tuniská";"Tunisian spur-thighed tortoise";"Plazi";1000;1
+1163;"Bulbul černohlavý";"Black-headed bulbul";"Ptáci";1000;1
+1164;"Čája obojková";"Southern screamer";"Ptáci";2500;0
+1165;"Čečetka tmavá";"Lesser redpoll";"Ptáci";1000;1
+1166;"Čejka australská";"Masked lapwing";"Ptáci";1500;1
+1167;"Flétnák australský";"Australian magpie";"Ptáci";1500;0
+1168;"Holub podkovní";"Spotted imperial pigeon";"Ptáci";1000;1
+1169;"Holub wonga";"Wonga pigeon";"Ptáci";1000;1
+1170;"Holub zelenokřídlý";"Emerald dove";"Ptáci";1000;1
+1173;"Jeřáb laločnatý";"Wattled crane";"Ptáci";2500;1
+1174;"Jespák bojovný";"Ruff";"Ptáci";1500;1
+1175;"Kachna temná";"African black duck";"Ptáci";1000;1
+1176;"Kladivouš africký";"Hamerkop";"Ptáci";3000;1
+1179;"Pisila čáponohá";"Black-winged stilt";"Ptáci";1500;1
+1182;"Sojkovec dvoubarvý";"Black-and-white laughingthrush";"Ptáci";1000;1
+1183;"Sojkovec rezavokřídlý";"Chestnut-winged laughingthrush";"Ptáci";1000;1
+1187;"Špaček rudooký";"Asian glossy starling";"Ptáci";1000;1
+1188;"Tenkozobec opačný";"Pied avocet";"Ptáci";1500;1
+1189;"Tkalčík bělohlavý";"White-headed buffalo weaver";"Ptáci";1000;1
+1190;"Žluva hajní";"Eurasian golden oriole";"Ptáci";1000;1
+1191;"Lori vlnkovaný";"Mindanao lorikeet";"Ptáci";1500;1
+1192;"Kystráček indonéský";"Helmeted friarbird";"Ptáci";1000;1
+1193;"Leguán modravý";"Blue iguana";"Plazi";15000;1
+1197;"Bažant Wallichův";"Cheer pheasant";"Ptáci";1000;1
+1198;"Bažant vietnamský";"Vietnamese pheasant";"Ptáci";1000;1
+1202;"Papoušek nádherný";"Superb parrot";"Ptáci";1000;1
+1208;"Zoborožec bělovlasatý";"White-crested hornbill";"Ptáci";2000;1
+1210;"Holub domácí";"Domestic pigeon";"Ptáci";1000;1
+1212;"Ovce domácí";"Domestic sheep";"Savci";2000;1
+1213;"Koza domácí";"Domestic goat";"Savci";2000;1
+1214;"Agama stepní";"Steppe agama";"Plazi";1000;1
+1215;"Agama turkestánská";"Turkestan rock agama";"Plazi";1500;1
+1216;"Felzuma Standingova";"Standing's day gecko";"Plazi";1000;1
+1218;"Chřestýš kostkovaný";"Eastern diamondback rattlesnake";"Plazi";1500;1
+1219;"Holub zlatoprsý";"Cinnamon ground-dove";"Ptáci";1000;0
+1226;"Trnoještěr kozí";"Green pricklenape";"Plazi";1000;1
+1227;"Trnorep mezopotámský";"Iraqi spiny-tailed lizard";"Plazi";1000;1
+1231;"Sova indická";"Oriental bay-owl";"Ptáci";3000;1
+1232;"Ropucha jihoafrická";"Karoo toad";"Obojživelníci";1000;1
+1233;"Agamka písečná";"Toad-headed agama";"Plazi";1500;1
+1237;"Dvojzoborožec hnědavý";"Rufous hornbill";"Ptáci";3000;1
+1238;"Výreček filipínský";"Philippine scops-owl";"Ptáci";3000;1
+1239;"Volavka vlasatá";"Squacco heron";"Ptáci";2000;1
+1240;"Špaček holohlavý";"Coleto";"Ptáci";1500;1
+1241;"Sojkovec modrotemenný";"Blue-crowned laughingthrush";"Ptáci";1000;1
+1244;"Mara slaništní";"Chacoan mara";"Savci";1000;1
+1245;"Kachnička obojková";"Cotton pygmy-goose";"Ptáci";1000;1
+1247;"Gekon turkestánský";"Turkestan thin-toed gecko";"Plazi";1000;1
+1248;"Gekon zázračný";"Turkestan plate-tailed gecko";"Plazi";1000;1
+1251;"Mabuja kapverdská";"Vaillant's mabuya";"Plazi";1000;1
+1252;"Křovinář ostnitý";"Eyelash palm-pitviper";"Plazi";1500;1
+1253;"Paještěrka písečná";"Reticulate racerunner";"Plazi";2000;1
+1255;"Želva ostnitá";"Spiny turtle";"Plazi";2000;1
+1257;"Koroptev hnědoprsá";"Brown-breasted hill-partridge";"Ptáci";1000;1
+1265;"Čírka diamantová";"Hottentot teal";"Ptáci";1000;1
+1267;"Čírka žlutozobá";"Speckled teal";"Ptáci";1000;1
+1270;"Morčák šupinatý";"Scaly-sided merganser";"Ptáci";1000;1
+1273;"Hoko přilbový";"Northern helmeted curassow";"Ptáci";1500;1
+1274;"Latam vlaštovčí";"Swift parrot";"Ptáci";1500;0
+1276;"Dudkovec stromový";"Green woodhoopoe";"Ptáci";1500;1
+1277;"Ibis slámokrký";"Straw-necked ibis";"Ptáci";3000;1
+1278;"Pelikán skvrnozobý";"Spot-billed pelican";"Ptáci";8000;0
+1281;"Rypoš obří";"Mechow's mole rat ";"Savci";2000;1
+1284;"Klokan bažinný";"Swamp wallaby";"Savci";3000;1
+1286;"Velemyš (krysa) největší";"Southern giant slender-tailed cloud rat";"Savci";4000;0
+1289;"Timálie rudolící";"Scarlet-faced liocichla";"Ptáci";1000;1
+1290;"Ježek bělobřichý";"Four-toed hedgehog";"Savci";2000;1
+1291;"Tamarín bělovousý";"Moustached tamarin";"Savci";4000;1
+1292;"Kachna domácí";"Domestic duck";"Ptáci";1000;1
+1295;"Šáma bělořitná";"White-rumped shama";"Ptáci";1000;1
+1296;"Špaček čínský";"White-shouldered starling";"Ptáci";1000;1
+1297;"Špaček růžový";"Rosy starling";"Ptáci";1000;1
+1298;"Tinama přilbová";"Elegant crested tinamou";"Ptáci";1000;0
+1299;"Pižmovka velká";"Muscovy duck";"Ptáci";1000;1
+1300;"Čejka jihoamerická";"Southern lapwing";"Ptáci";1500;1
+1301;"Dytík velký";"Bush thick-knee";"Ptáci";1500;1
+1302;"Lori balijský";"Mitchell's lorikeet";"Ptáci";1500;1
+1304;"Zoborožec rýhozobý";"Visayan tarictic hornbill";"Ptáci";2000;1
+1306;"Husa labutí domácí";"Domestic swan goose";"Ptáci";1500;1
+1308;"Leguán kyjoocasý";"Five-keeled spiny-tailed iguana";"Plazi";1500;1
+1311;"Vydra hladkosrstá";"Smooth-coated otter";"Savci";6000;1
+1312;"Levhart jávský";"Javan leopard";"Savci";10000;1
+1315;"Ryby v pavilonu Čambal";"Fishes from Chambal pavilion";"Ryby";1000;1
+1316;"Užovka podplamatá";"Dice snake";"Plazi";1500;1
+1317;"Užovka obojková";"Grass snake";"Plazi";1500;1
+1318;"Zmije obecná";"Adder";"Plazi";1500;1
+1319;"Ještěrka zelená";"European green lizard";"Plazi";1000;1
+1320;"Rákosnička ulugurská";"Uluguru forest tree frog";"Obojživelníci";1000;1
+1321;"Komba jižní";"Mohol bushbaby";"Savci";2000;1
+1323;"Gekon skvrnitý";"African banded velvet gecko";"Plazi";1000;1
+1326;"Koroptev polní";"Grey partridge";"Ptáci";1000;1
+1328;"Kur cejlonský";"Ceylon junglefowl";"Ptáci";1000;1
+1330;"Klokan horský východní";"Eastern wallaroo";"Savci";7000;1
+1331;"Svišť lesní";"Woodchuck";"Savci";2000;1
+1332;"Konipas bílý";"White wagtail";"Ptáci";1000;1
+1333;"Neoféma Bourkova";"Bourkeâ€™s parrot";"Ptáci";1000;0
+1334;"Tabon lesní";"Australian brushturkey";"Ptáci";1000;1
+1335;"Velemlok čínský";"Chineese giant salamander";"Obojživelníci";20000;1
+1337;"Sambar ostrovní";"Javan rusa";"Savci";5000;1
+1338;"Želva dlaždicovitá";"Impressed tortoise";"Plazi";3000;1
+1343;"Chřestýšovec mangšanský";"Mang mountain pit viper";"Plazi";2000;1
+1344;"Sup kapucín";"Hooded vulture";"Ptáci";3000;0
+1345;"Zrzohlávka rudozobá";"Red-crested pochard";"Ptáci";1000;1
+1347;"Vlhovec žlutokápý";"Yellow-hooded blackbird";"Ptáci";1000;0
+1349;"Bažant Salvadoriův";"Salvadoriâ€™s pheasant";"Ptáci";1000;1
+1350;"Kondor královský";"King vulture";"Ptáci";3000;0
+1351;"Mravenečník velký";"Giant anteater";"Savci";8000;1
+1353;"Užovka Ravergierova";"Spotted whip snake";"Plazi";1500;1
+1355;"Blavor žlutý";"European glass lizard";"Plazi";2000;1
+1357;"Gekon obrovský";"Tokay gecko";"Plazi";1000;1
+1358;"Skalník sundský";"Javan whistling-thrush";"Ptáci";1000;1
+1361;"Šírohlavec východní";"Eastern Montpellier snake";"Plazi";1500;0
+1362;"Štír";"Scorpion";"Bezobratlí";1000;1
+1363;"Jelen bělohubý";"Thorold's deer";"Savci";5000;1
+1364;"Bodlinatka jihoafrická";"Southern African spiny mouse";"Savci";1000;1
+1365;"Gibon stříbrný";"Silvery gibbon";"Savci";8000;1
+1367;"Rybák obecný";"Common tern";"Ptáci";2000;0
+1369;"Majna chocholatá";"Crested myna";"Ptáci";1500;1
+1370;"Sojkovec zlatokřídlý";"Scaly laughingthrush";"Ptáci";1000;1
+1372;"Drozd zpěvný";"Song thrush";"Ptáci";1000;1
+1373;"Arowana dvojvousá";"Silver arowana";"Ryby";2000;1
+1374;"Gekon létavý";"Kuhl's flying gecko";"Plazi";1000;1
+1375;"Leguánek haitský";"Hispaniolan curly-tailed lizard";"Plazi";1000;1
+1376;"Leguán pustinný";"Desert iguana";"Plazi";1500;1
+1377;"Vodnářka pruhovaná";"Puff-faced water snake";"Plazi";1500;1
+1378;"Ropušník velký";"Giant horned lizard";"Plazi";2000;1
+1379;"Kočka palawanská";"Palawan leopard cat";"Savci";5000;1
+1381;"Husa císařská";"Emperor goose";"Ptáci";2500;1
+1382;"Včelojed lesní";"European honey-buzzard";"Ptáci";3000;1
+1383;"Kraska krátkoocasá jávská";"Javan green magpie";"Ptáci";3000;0
+1384;"Holub bělolící";"Columba vitiensis griseogularis";"Ptáci";1000;1
+1385;"Tkalčík červenozobý";" ";"Ptáci";1000;1
+1386;"Holub růžovotemenný";"Ducula rosacea";"Ptáci";1000;1
+1387;"Husice rezavá";"Tadorna ferruginea";"Ptáci";1000;1
+1391;"Kachnička amazonská";"Amazonetta brasiliensis";"Ptáci";1000;1
+1392;"Chřástal kropenatý";"Porzana porzana";"Ptáci";1500;0
+1393;"Lori sumbawský";"Forsten's lorikeet";"Ptáci";1500;1
+1394;"Stepokur hnědobřichý";"Pterocles exustus Temminck";"Ptáci";2000;1
+1395;"Labuť malá";"Cygnus columbianus";"Ptáci";2500;1
+1396;"Kolpík africký";" ";"Ptáci";3000;1
+1397;"Pekari Wagnerův";"Catagonus wagneri";"Savci";2000;1
+1398;"Dikobraz palawanský";" ";"Savci";2000;1
+1399;"Kvakoš rezavý";" ";"Ptáci";2000;1
+1401;"Daman stepní";" ";"Savci";2000;1
+1404;"Dikdik Kirkův";" ";"Savci";3000;1
+1405;"Nosál bělohubý";" ";"Savci";5000;1
+1406;"Ibis šedokřídlý";" ";"Ptáci";3000;1
+1407;"Zoborožec luzonský";" ";"Ptáci";2000;1
+1408;"Bukač velký";" ";"Ptáci";2000;1
+1409;"Dytík bledý";" ";"Ptáci";1500;0
+1411;"Kačka strakatá";" ";"Ptáci";1000;1
+1412;"Želva hvězdnatá";" ";"Plazi";1500;1
+1413;"Varanovec bornejský";" ";"Plazi";5000;1
+1414;"Ropucha síťkovaná";" ";"Obojživelníci";1000;1
+1415;"Rosnička bělopruhá";" ";"Obojživelníci";1000;1
+1416;"Rosnice siná";" ";"Obojživelníci";1000;1
+1417;"Rosnice šalamounská";" ";"Obojživelníci";1000;1
+1418;"Létavka obecná";" ";"Obojživelníci";1000;1
+1419;"Bažant paví";" ";"Ptáci";1000;1
+1420;"Sojkovec rezavouchý";" ";"Ptáci";1000;1
+1421;"Kachnice kaštanová";" ";"Ptáci";1000;1
