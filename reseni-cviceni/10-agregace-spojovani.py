@@ -6,6 +6,7 @@
 # jmena = pandas.read_csv("https://kodim.cz/cms/assets/kurzy/python-data-1/python-pro-data-1/agregace-a-spojovani/excs/excs>studenti/jmena.csv")
 # s1 = pandas.read_csv("https://kodim.cz/cms/assets/kurzy/python-data-1/python-pro-data-1/agregace-a-spojovani/excs/excs>studenti/studenti1.csv")
 # s2 = pandas.read_csv("https://kodim.cz/cms/assets/kurzy/python-data-1/python-pro-data-1/agregace-a-spojovani/excs/excs>studenti/studenti2.csv")
+
 # První set už známe z minulé lekce. Druhé dva sety obsahují seznam studentů na nějaké menší IT fakultě. Pozor, tato data nemají žádnou souvislost s výsledky maturity, které jsme procházeli během lekce.
 
 # Proveď následující úkoly a zodpověz předložené otázky.
