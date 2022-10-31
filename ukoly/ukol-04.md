@@ -1,6 +1,6 @@
 # ukol-04: Třídy
 
-Deadline: 25.10.2022
+Deadline: 30.10.2022
 
 Vyberte si kterou variantu chcete, pro odvážnější jsem sepsala jen [obecne požadavky](#obecné-požadavky-na-úkol-vyžaduje-více-času-a-vlastní-iniciativy)  třídy, atributy a metody nechávám na vás, můžete použít něco co vam přijde praktické, co vás zajímá :) Kdo se nechce zdržovat s vymášlením a chce si procvičit látku na konkretním zadání, může použít [druhou variantu](#vymyšlené-zadání).
 
