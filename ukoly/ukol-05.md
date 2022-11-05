@@ -1,6 +1,6 @@
 # ukol-05: Dedicnost + List Comprehension
 
-Deadline: 5.11.2022
+Deadline: 6.11.2022
 
 Ukol ma dve casti - vyberte si alespon jednu - opravime i obe dve kdyz je udelate - to je jasny :)
 
