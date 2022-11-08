@@ -11,4 +11,10 @@
 # Zjisti všechny informace o pracovní pozici na desátém řádku.
 # Podívej se, kde budou pracovat zájemci vybraní na dvanáctou až dvacátou pozici.
 
-TODO
+import pandas
+
+jobs = pandas.read_csv("DataAnalyst.csv")
+print(jobs.columns)
+print(jobs.shape[0])
+print(jobs.iloc[9])
+print(jobs.iloc[11:20, [1, 7]])
