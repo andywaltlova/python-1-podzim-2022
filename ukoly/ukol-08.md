@@ -16,7 +16,7 @@ V lekci jsme zmínili, že existují i jiné typy indexů, než jen číselný, 
 
 * Pomocí `<tvoje-promenna>.index.is_unique` ověř, zda je nový index unikátní.
 
-* Seřazený index je efektivnější a přehlednější. Seřaď index pomocí metody `.sort_index()`. Bacha, metoda vrátí novou tabulku se seřazeným indexem. Budeš tedy chtít přepsat původní tabulku.
+* Seřazený index je efektivnější a přehlednější. Seřaď index pomocí metody `.sort_index()`. Bacha, metoda vrátí novou tabulku se seřazeným indexem. Budeš tedy chtít přepsat původní dataframe.
 
 * Vyhledej řádek indexovaný názvem `"Outloň váhavý"`. Namísto metody `.iloc` využij `.loc`.
 
