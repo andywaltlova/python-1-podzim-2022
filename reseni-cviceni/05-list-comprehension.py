@@ -9,7 +9,10 @@ cisla = [1.12, 4.51, 2.64, 13.1, 0.1]
 # každé z čísel ze seznamu cisla umocněné na druhou,
 # každé z čísel ze seznamu cisla jako řetězec.
 
-# TODO
+vynasobene_dvema = [cislo*2 for cislo in cisla]
+opacne_znamenko = [cislo*(-1) for cislo in cisla]
+umocnene = [cilso**2 for cislo in cisla]
+retezce = [str(cislo) for cislo in cisla]
 
 
 # 2 Seznamy řetězců (to dáš)
@@ -24,7 +27,11 @@ jmena = ['Roman', 'Jan', 'Miroslav', 'Petr', 'Gabriel']
 # všechna jména plus písmeno 'a' na konci (stanou se z nich tedy ženská jména),
 # všechna jména převedená na malá písmena s koncovkou '@email.cz'.
 
-# TODO
+pocty = [len(jmeno) for jmeno in jmena]
+velka = [jemno.upper() for jmeno in jmena]
+zenska = [jmeno + 'a' for jmeno in jmena]
+email = [jmeno.lower() +'@email.cz' for jmeno in jmena]
+
 
 # 3 Seznam teplot (zapni hlavu)
 # Mějme zadaný následující seznam naměřených teplot.
@@ -46,4 +53,8 @@ teploty = [
 # Vytvořte seznam dvouprvkových seznamů obsahujících pouze polední a noční teplotu.
 # Spočítejte celkovou průměrnou teplotu za celý týden.
 
-# TODO
+prumery = [sum(den)/len(den) for den in teploty]
+rano = [den[0] for den in teploty]
+vecer = [den[3] for den in teploty]
+poledne_noc = [[den[1], den[3]] for den in teploty]
+tydeni_prumery = sum(prumery)/len(prumery)
