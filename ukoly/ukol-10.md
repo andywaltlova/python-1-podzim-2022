@@ -7,16 +7,16 @@ Uvažuj, že zpracováváš analýzu pro softwarovou firmu. Firma má kancelář
 ```
 import requests
 
-r = requests.get("https://github.com/andywaltlova/python-1-podzim-2022/blob/master/ukoly/data/zam_praha.csv")
+r = requests.get("https://raw.githubusercontent.com/andywaltlova/python-1-podzim-2022/master/ukoly/data/zam_praha.csv")
 open("zam_praha.csv", "wb").write(r.content)
 
-r = requests.get("https://github.com/andywaltlova/python-1-podzim-2022/blob/master/ukoly/data/zam_plzeň.csv")
+r = requests.get("https://raw.githubusercontent.com/andywaltlova/python-1-podzim-2022/master/ukoly/data/zam_plzeň.csv")
 open("zam_plzeň.csv", "wb").write(r.content)
 
-r = requests.get("https://github.com/andywaltlova/python-1-podzim-2022/blob/master/ukoly/data/zam_liberec.csv")
+r = requests.get("https://raw.githubusercontent.com/andywaltlova/python-1-podzim-2022/master/ukoly/data/zam_liberec.csv")
 open("zam_liberec.csv", "wb").write(r.content)
 
-r = requests.get("https://github.com/andywaltlova/python-1-podzim-2022/blob/master/ukoly/data/platy_2021_02.csv")
+r = requests.get("https://raw.githubusercontent.com/andywaltlova/python-1-podzim-2022/master/ukoly/data/platy_2021_02.csv")
 open("platy_2021_02.csv", "wb").write(r.content)
 ```
 
