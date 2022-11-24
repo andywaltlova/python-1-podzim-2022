@@ -40,7 +40,7 @@ Pokračuj ve své práci pro softwarovou firmu. Ze souboru [vykazy.csv](data/vyk
 ```
 import requests
 
-r = requests.get("https://github.com/andywaltlova/python-1-podzim-2022/blob/master/ukoly/data/vykazy.csv")
+r = requests.get("https://raw.githubusercontent.com/andywaltlova/python-1-podzim-2022/master/ukoly/data/vykazy.csv")
 open("vykazy.csv", "wb").write(r.content)
 ```
 
