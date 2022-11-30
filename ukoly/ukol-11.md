@@ -31,3 +31,9 @@ Například:
 ```
 
 Celkově je potřeba identifikovat 17 adres.
+
+Pro práci s diakritikou dobře poslouží třeba rozsah `[À-ž]`, který vybere všechny znaky, které jsou v tabulce níže označeny žlutě. 
+
+![diakritika-regex.png](data/diakritika-regex.png)
+
+
