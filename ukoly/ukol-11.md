@@ -2,7 +2,7 @@
 
 Česká pošta má [stránku na webu](https://www.ceskaposta.cz/rady-a-navody/jak-spravne-nadepsat-zasilku), která radí, jak správně nadepsat zásilku. Uvádí i několik vzorů pro české i zahraniční zásilky.
 
-V souboru [posta.html](data/posta.html) nalezneš zdrojový kód této stránky v HTML (to je značkovací jazyk, ve kterém jsou napsané některé webové stránky, nebo části některých webových stránek.). 
+V souboru [posta.html](https://raw.githubusercontent.com/andywaltlova/python-1-podzim-2022/master/ukoly/data/posta.html) nalezneš zdrojový kód této stránky v HTML (to je značkovací jazyk, ve kterém jsou napsané některé webové stránky, nebo části některých webových stránek.). 
 
 1. Soubor si načti do proměnné tak, aby se celý jeho obsah nacházel jako jeden řetězec v proměnné. Můžeš využít metodu `read()` (doplň název souboru a název své proměnné):
 
