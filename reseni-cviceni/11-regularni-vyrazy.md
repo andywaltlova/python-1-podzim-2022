@@ -152,10 +152,10 @@ II. stupeň povodňové aktivity
 Konstantin XI. Dragases
 """
 
-_Kudos za toto řešeni patří [@zitkovalenka](https://github.com/zitkovalenka)._
 ```
 [IXV]{1,3}
 ```
+_Kudos za toto řešení patří [@zitkovalenka](https://github.com/zitkovalenka)._
 
 Nebo:
 ```
